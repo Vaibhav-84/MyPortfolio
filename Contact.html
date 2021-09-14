@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Taibah - My Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+	<script src = "js/portfolio.js"></script>
+</head>
+<body id="body5">
+    <div class="navbar">
+        <a href="Home.html" id="start"><img src="img/home.png" width="20" height="20">  Home</a>
+        <a href="AboutMe.html"><img src="img/aboutme.png" width="20" height="20">  About Me</a>
+        <a href="Resume.html"><img src="img/resume.png" width="20" height="20">  Resume</a>
+        <a href="Certificates.html" ><img src="img/certificate.png" width="20" height="20">  Certificates</a>
+        <a href="Contact.html" id="end" class="active"><img src="img/contact.png" width="20" height="20">  Contact   </a>
+        <p style="float: right; margin-right: 30px; margin-bottom: 0cm; margin-top: 12px; font-size: 20px; color: white; font-family: cursive;"><b>TAIBAH BAGWAN</b></p>
+    </div>
+
+    <div id="contact" class="container">
+        <p style="text-align: center; font-size: 30px; padding-right: 35px; text-shadow: 5px 5px 5px #04AA6D;"><b>CONTACT ME</b></p> 
+        <div style="display: flex;">
+            <p style="font-size: 15px; margin-top: 15px;"><b style="font-size: 30px;">Taibah Bagwan</b><br>
+                <a href="https://www.linkedin.com/in/taibah-bagwan-528226210/"><img src="img/linkedin.png" width="22px" height="22px" style="border-radius: 50%; margin-left: 77px;"></a>
+                <a href="https://github.com/Taibah-10"><img src="img/github.png" width="20px" height="20px" style="border-radius: 50%; margin-top: 15px;"></a><br>
+                <b style="padding-bottom: 50px;">Email: taibahbagwan10@gmail.com<br>
+                Phone no.: 9404225698</b></p>
+            <form style="padding-top: 10px; padding-left: 30px;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <label for="msg">Type your message:</label><br>
+                <input type="text" id="msg" name="msg" size="30" style="height: 40px; margin-top: 10px;"><br><br>
+                <input type="submit" value="Send" style="background-color: #04AA6D;" onclick="return submitted(this.form)">
+                <input type="reset" value="Reset" style="background-color: #04AA6D;">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

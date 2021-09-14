@@ -1,0 +1,207 @@
+#body2 {font-family: Arial, Helvetica, sans-serif; background-image: url("back.jpg"); background-repeat: no-repeat; background-size: cover;}
+#body1 {font-family: Arial, Helvetica, sans-serif; background-color: black;}
+#body3 {font-family: Arial, Helvetica, sans-serif; background-image: url("backresume.jpg"); background-size: auto; background-repeat: repeat;}
+#body4 {font-family: Arial, Helvetica, sans-serif; background-image: url("backre.jpg"); background-repeat: no-repeat; background-size: cover;}
+#body5 {font-family: Arial, Helvetica, sans-serif; background-color: black; background-image: url("cm1.jpg"); background-repeat: no-repeat; background-size: 1370px 400px;}
+
+
+.navbar {
+  border-top-left-radius: 55px 55px;
+  border-top-right-radius: 55px 55px;
+  border-bottom-right-radius:  55px 55px;
+  border-bottom-left-radius: 55px 55px;
+  background-color: #555;
+  overflow: auto;
+  width: 98.7%;
+  top: 0cm;
+  z-index: 10000;
+  position: fixed;
+  margin-top: 10px;
+}
+
+.navbar a {
+  height: 39px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 4px; 
+  float: left;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  border-top-left-radius: 55px 55px;
+  border-top-right-radius: 55px 55px;
+  border-bottom-right-radius:  55px 55px;
+  border-bottom-left-radius: 55px 55px;
+}
+
+.navbar a:hover {
+  border-color: #04AA6D;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 3.5px;
+  padding-top: 5.5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+img {
+    border-radius: 50%;
+    background-color: black;
+  }
+
+#stroke{
+    border-radius: 0cm;
+    width: 95%;
+    height: 95%;
+  }
+
+  .container {
+  
+    font-family: cursive;
+    border-radius: 20%;
+    width: 450px;    
+    height: 390px;
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    left: 300px;
+    top: 150px;
+    
+  }
+
+  #img2 {
+    border-color:  #04AA6D;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    margin-left: 55%;
+    margin-top: 13%;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+.ambg{
+    width: 700px;
+    border-radius: 15%;
+    position: absolute;
+    opacity: 0.5;
+    left: 40%;
+    top: 35%;
+    bottom: 10%;
+    background-color: white;
+}
+
+#wbox{
+    border-top-left-radius: 55px 55px;
+    border-bottom-left-radius: 55px 55px;
+    border-top-right-radius: 55px 55px;
+    border-bottom-right-radius:  55px 55px;
+    position: relative;
+    background-color: white;
+    width: 800px;
+    height: 1900px;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+#bbox{
+    border-top-right-radius: 55px 55px;
+    border-bottom-right-radius:  55px 55px;
+    background-color: #04AA6D;
+    opacity: 0.8;
+    position: absolute;
+    width: 800px;
+    height: 1900px;
+    margin-left: 12%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    margin-top: 12%;
+}
+
+#same{
+    border-radius: 0%;
+}
+
+div.gallery {
+    border: 4px solid #ccc;
+    box-shadow:  10px 10px 7px grey; 
+  }
+  
+  div.gallery:hover {
+    border: 10px solid #04AA6D;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 20px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  #contact{
+    border-style: solid;
+    border-color: white;
+    border-radius: 20%;
+    border-width: 1px;
+    font-family: cursive;
+    border-radius: 20%;
+    width: 600px;    
+    height: 375px;
+    position: absolute;
+    margin-right: 12%;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 50px;
+    opacity: 1;
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 10px;
+  }
